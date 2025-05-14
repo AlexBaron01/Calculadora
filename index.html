@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Magnitudes Físicas - Ingenieria de Software</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="calculator-container">
+<h1>Calculadora de Magnitudes Físicas</h1>
+<select id="calculoSeleccionado" onChange="mostrarFormulario()">
+<option value="">Seleccione un calculo</option>
+<option value="Velocidad">Velocidad</option>
+<option value="Aceleracion">Aceleracion</option>
+<option value="Fuerza">Fuerza</option>
+<option value="Trabajo">Trabajo</option>
+<option value="Cinetica">Energia Cinetica</option>
+<option value="EGravitatoria">Energia Potencial Gravitatoria</option>
+<option value="Densidad">Densidad</option>
+<option value="Presion">Presion</option>
+<option value="CargaElectrica">Carga Electrica</option>
+<option value="ohm">Ley de Ohm</option>
+</select>
+<form id="formulario"></form>
+<div id="resultado" class="resultado"></div>
+<footer>Alex David Baron Lenes</footer>
+</div>
+<script src="scrip.js"></script>
+</body>
+</html>
